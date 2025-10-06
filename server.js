@@ -12,7 +12,14 @@ connectDB();
 const app = express();
 
 // Middleware
-app.use(cors());
+
+// Enable CORS for your frontend URL
+app.use(cors({
+    origin: 'http://localhost:3000', // replace with your frontend URL if different
+    credentials: true, // allows sending cookies or auth headers
+}));
+
+// Parse JSON bodies
 app.use(express.json());
 
 // API Routes

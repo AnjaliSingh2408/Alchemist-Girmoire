@@ -23,6 +23,7 @@ app.use(cors({
 app.use(express.json());
 
 // API Routes
+//const authRoutes = require('./routes/auth');
 app.use('/api/auth', require('./routes/auth'));
 app.use('/api/medications', require('./routes/medications'));
 app.use('/api/doses', require('./routes/doses'));

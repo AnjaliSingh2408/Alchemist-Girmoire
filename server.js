@@ -26,6 +26,9 @@ app.use(express.json());
 app.use('/api/auth', require('./routes/auth'));
 app.use('/api/medications', require('./routes/medications'));
 app.use('/api/doses', require('./routes/doses'));
+const authRoutes = require('./routes/auth');
+
+app.use('/api/auth', authRoutes);
 
 const PORT = process.env.PORT || 5000;
 

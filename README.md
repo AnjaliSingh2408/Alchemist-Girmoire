@@ -91,31 +91,6 @@ It centralizes medication management — enabling **easy scheduling, timely remi
 
 ---
 
-## 📈 Class Diagram
-+--------------------+        +----------------------+
-|      User          |        |     Medication       |
-+--------------------+        +----------------------+
-| userId             |        | medId                |
-| name               |        | userId (FK)          |
-| email              |        | name                 |
-| passwordHash       |        | dosage               |
-| adherenceRate      |        | frequency            |
-+--------------------+        | timeSlots[]          |
-                              | lastTaken            |
-                              +----------------------+
-                                        |
-                                        v
-                              +----------------------+
-                              |    Notification      |
-                              +----------------------+
-                              | notifyId             |
-                              | medId (FK)           |
-                              | type (email/SMS)     |
-                              | status (pending/sent)|
-                              +----------------------+
-
----
-
 ## 💡 Future Scope
 
 Integration with wearable IoT devices (smartwatches, fitness bands).

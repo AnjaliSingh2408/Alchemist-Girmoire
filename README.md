@@ -1,70 +1,95 @@
-# Getting Started with Create React App
+# 🌿 Alchemist's Grimoire  
+### Smart Medication Adherence Tracker  
+> _Developed for **Webster 2025** by Team **ChronoAlchemists** (Team ID: 892)_
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+---
 
-## Available Scripts
+## 👥 Team Information
 
-In the project directory, you can run:
+| Member | Roll No. | Department | Username |
+|:--------|:-----------|:------------|:------------|
+| Nishi Gupta | 20243187 | CSE | nishigupta0142 |
+| Anjali Singh | 20243032 | CSE | ParthKrishna |
+| Paramita Ghosh | 20243197 | CSE | paramita_38708 |
 
-### `npm start`
+---
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## 🧩 Problem Description
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+In the fast-paced world of traveling performers, especially within circuses, managing complex medication schedules can be challenging. Forgetting doses impacts not only health but also performance consistency.
 
-### `npm test`
+**Alchemist’s Grimoire** provides a **smart, AI-integrated wellness and medication adherence platform** that ensures performers never miss a dose.  
+It centralizes medication management — enabling **easy scheduling, timely reminders, and insightful adherence tracking** through a clean, data-driven dashboard.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+---
 
-### `npm run build`
+## 🌐 Website Name
+**Alchemist’s Grimoire**
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+---
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## 🔄 Process Flow
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+1. **Onboarding**  
+   - Users create an account via email or Google sign-in.  
+   - Authentication is securely handled via JWT.
 
-### `npm run eject`
+2. **Dashboard**  
+   - Displays today’s medication schedule, upcoming reminders, and adherence statistics.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+3. **Schedule Creation**  
+   - Users can add a new medication with fields like name, dosage, frequency, and time (e.g., *12:00 PM*).
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+4. **Automated Reminders**  
+   - The backend triggers timely reminders via **browser notifications, email, or SMS** using Firebase and Twilio.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+5. **Dose Logging**  
+   - Users mark a medication as “taken” with a single click, updating their adherence history instantly.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+6. **Tracking & Visualization**  
+   - Real-time dashboard shows **interactive charts** for daily/weekly adherence trends using Chart.js / D3.js.
 
-## Learn More
+---
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## ⚙️ Core Features
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+| Feature | Description |
+|:---------|:-------------|
+| 🔐 **Secure User Authentication** | Registration, Login, and Google OAuth integrated using JWT. |
+| 📅 **Dynamic Schedule Management** | Create, edit, or delete medication schedules dynamically. |
+| 🔔 **Automated Notifications** | Real-time browser or email reminders using Firebase Cloud Messaging & Twilio. |
+| 📊 **Interactive Dashboard** | Visual adherence tracking and progress insights with Chart.js/D3.js. |
+| 🧠 **AI Adherence Prediction** | Predicts high-risk time slots for missed doses and provides proactive nudges. |
+| 💬 **AI Chatbot Health Assistant** | Natural language queries like _“What pills do I need to take today?”_ powered by OpenAI API. |
+| 🔗 **Google Calendar Integration** | Auto-syncs medication events to personal Google Calendar for cross-platform visibility. |
 
-### Code Splitting
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## 🧰 Tech Stack
 
-### Analyzing the Bundle Size
+| Category | Technology |
+|:-----------|:------------|
+| **Frontend** | React.js + Tailwind CSS |
+| **Backend** | Node.js + Express.js |
+| **Database** | MongoDB |
+| **Authentication** | JWT (JSON Web Tokens) |
+| **Notifications** | Firebase Cloud Messaging, Twilio |
+| **Visualization** | Chart.js / D3.js |
+| **AI Integration** | OpenAI API |
+| **Calendar Sync** | Google Calendar API |
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+---
 
-### Making a Progressive Web App
+## 🧪 External Libraries / APIs
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+- **Google Calendar API** — Syncs medication schedules to the user’s calendar.
+- **OpenAI API** — Chatbot for intelligent health and medication-related queries.
+- **Firebase Cloud Messaging** — Push notifications to browsers and mobile devices.
+- **Twilio API** — Sends SMS or email reminders.
+- **Chart.js / D3.js** — Graphical representation of adherence data.
+- **Axios** — Handles frontend-backend API communication.
 
-### Advanced Configuration
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
 
-### Deployment
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)

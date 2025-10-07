@@ -91,5 +91,46 @@ It centralizes medication management — enabling **easy scheduling, timely remi
 
 ---
 
+## 📈 Class Diagram
++--------------------+        +----------------------+
+|      User          |        |     Medication       |
++--------------------+        +----------------------+
+| userId             |        | medId                |
+| name               |        | userId (FK)          |
+| email              |        | name                 |
+| passwordHash       |        | dosage               |
+| adherenceRate      |        | frequency            |
++--------------------+        | timeSlots[]          |
+                              | lastTaken            |
+                              +----------------------+
+                                        |
+                                        v
+                              +----------------------+
+                              |    Notification      |
+                              +----------------------+
+                              | notifyId             |
+                              | medId (FK)           |
+                              | type (email/SMS)     |
+                              | status (pending/sent)|
+                              +----------------------+
 
+---
 
+## 💡 Future Scope
+
+Integration with wearable IoT devices (smartwatches, fitness bands).
+
+Personalized medicine tracking based on biometrics.
+
+Offline mode for remote locations with sync-on-connect.
+
+Family or caretaker access for multi-user tracking.
+
+---
+
+## 🏆 Credits
+
+Developed with 💙 by Team ChronoAlchemists
+Webster 2025 Submission – Team ID: 892
+
+---

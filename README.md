@@ -94,11 +94,8 @@ It centralizes medication management — enabling **easy scheduling, timely remi
 ## 💡 Future Scope
 
 - Integration with wearable IoT devices (smartwatches, fitness bands).
-
 - Personalized medicine tracking based on biometrics.
-
 - Offline mode for remote locations with sync-on-connect.
-
 - Family or caretaker access for multi-user tracking.
 
 ---

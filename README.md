@@ -18,13 +18,13 @@
 
 In the fast-paced world of traveling performers, especially within circuses, managing complex medication schedules can be challenging. Forgetting doses impacts not only health but also performance consistency.
 
-**Alchemist’s Grimoire** provides a **smart, AI-integrated wellness and medication adherence platform** that ensures performers never miss a dose.  
+**MediSathi** provides a **smart, AI-integrated wellness and medication adherence platform** that ensures performers never miss a dose.  
 It centralizes medication management — enabling **easy scheduling, timely reminders, and insightful adherence tracking** through a clean, data-driven dashboard.
 
 ---
 
 ## 🌐 Website Name
-**Alchemist’s Grimoire**
+**MediSathi**
 
 ---
 
@@ -76,7 +76,6 @@ It centralizes medication management — enabling **easy scheduling, timely remi
 | **Notifications** | Firebase Cloud Messaging, Twilio |
 | **Visualization** | Chart.js / D3.js |
 | **AI Integration** | OpenAI API |
-| **Calendar Sync** | Google Calendar API |
 
 ---
 

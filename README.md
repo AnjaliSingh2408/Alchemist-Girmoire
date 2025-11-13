@@ -1,4 +1,4 @@
-# 🌿 Alchemist's Grimoire  
+# 🌿 MediSathi 
 ### Smart Medication Adherence Tracker  
 > _Developed for **Webster 2025** by Team **ChronoAlchemists** (Team ID: 892)_
 
